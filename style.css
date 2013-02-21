@@ -1,0 +1,310 @@
+/*   
+Theme Name: Homework
+Theme URI: 
+Description: task o job employment
+Author: Anton Fray
+Author URI: http://agn1.jino.ru/homework
+Version: 1.0
+.
+free
+.
+*/
+html {
+	height: 100%;
+	margin: 0;
+}
+body {
+margin-top:;
+font-family: Myriad Pro;
+	width: 1000px;
+	text-decoration: none;
+	margin: -15px auto 0;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    -webkit-box-shadow: 0px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+a {
+color: #2E3092;
+}
+a:hover {
+color: #539100;
+text-decoration: underline;
+}
+a:visited{
+color: #535362;
+}
+h1{
+font: normal 68px Mistral;
+}
+h5 a {
+text-decoration: none;
+}
+#half {
+font-size: 1.25em !important;
+margin-left: 45px;
+}
+#page {
+width: 100%;
+min-height: 800px;
+background:url(../images/background.gif) no-repeat 2% 92.5%;
+}
+#header {
+height: 440px;
+width: 100%;
+/*background: #fbc;*/
+}
+#header-1 {
+position: relative;
+padding: 0px 10px 0px 100px;
+width: 1000px;
+height: 180px;
+background: url(../images/header1.gif) no-repeat;
+}
+#header-1 p{
+font: normal 16px Myriad Pro;
+}
+#header-1>p>span>a{
+text-decoration: none;
+color: #0065B2;
+font: normal 68px Mistral;
+}
+.htext{
+display: inline-block;
+position: absolute;
+left: 3%;
+top: 66%;
+font-family: Myriad Pro;
+color: #0065B2;
+}
+.htext p{
+font-size: 18px !important;
+}
+.htext p span{
+color: #95C123;
+font-size: 2em !important;
+}
+.htext a{
+margin-left: 60px;
+color: #fff !important;
+text-align: center;
+display: inline-block;
+background: #4ED0F9;
+text-decoration: none;
+width: 250px;
+}
+#nav {
+position: relative;
+top: -45%;
+left: 15%;
+padding: 0;
+margin: 0;
+font-size: 100%;
+font-family: Myriad Pro Georgia;
+z-index: 1;
+	}
+#nav li:first-child:before {
+content: url(../images/menu-line.png);
+position: absolute;
+top: -2px;
+}
+#nav li {
+	list-style: none;
+	float: left;
+	height: 33px;
+	padding: 0;
+	margin: 0;
+	width: 150px;
+	text-align: center;
+	background: url(../images/menu-line.png) no-repeat 100% 100%;
+	position: relative;
+	padding-top: 12px;
+	}
+#nav li ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 150px;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 45px;
+	}
+#nav li ul li {
+	float: none;
+	height: 33px;
+	margin: 0;
+	width: 150px;
+	text-align: center;
+	background: #FBFAFB;
+	}
+#nav li a {
+	display: block;
+	width: 150px;
+	height: 33px;
+	color: #216DB3;
+	text-decoration: none;
+	text-transform: uppercase;
+	}
+#nav li:hover ul, #menu li.jshover ul {
+	display: block;
+	}
+#nav li:hover, #menu li.jshover {
+	background: #FBFAFB;
+	border:3px solid #C1C1C1;
+	font-size: 1.1em;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    -webkit-box-shadow: 0px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	}
+/*#nav{
+display: inline-block;
+width: 50%;
+position: relative; 
+z-index: 1; 
+height: 50px;
+font: bold 14px Myriad Pro;
+
+}
+#nav li{
+padding: 0px;
+list-style-type: none;
+display: inline-block;
+margin-right: 1px;
+width: 150px;
+height: 50px;
+background: url(../images/menu-line.png) no-repeat 100% 100%;
+}/*
+#nav input{
+margin-right: 5px;
+list-style-type: none;
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+-webkit-box-shadow: 0px rgba(0,0,0,0.5);
+box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+#nav ul li a{
+text-align: center;
+color:#216DB3;
+text-decoration: none;
+margin: 0 30px;
+font:normal 14px Myriad Pro;
+text-transform: uppercase;
+}
+#nav ul li a:hover{
+color:#539100;
+text-decoration: underline;
+}*/
+#header-2 {
+width: 1000px;
+height: 145px;
+background: url(../images/header2.gif) no-repeat;
+overflow: visible;
+margin-bottom: -20px;
+}
+#header-3 {
+position: relative;
+width: 1000px;
+height: 150px;
+background: url(../images/row.png) no-repeat 0 100%;
+}
+#header-3 img{
+padding-left: 130px;
+
+margin: 0 20px 50px;
+}
+#header-3 p{
+position: relative;
+left: 170px;
+top: -40%;
+display: inline-block;
+}
+#header-3 a{
+text-transform: uppercase;
+color: #000;
+font: bold 14px Myriad Pro;
+text-decoration: none;
+margin-right:205px;
+}
+#header-3 a:hover{
+color: #539100;
+}
+#main {
+min-width: 100%;
+overflow: hidden;
+position: relative;
+}
+.title {
+background: url(../images/sub.gif) no-repeat 100% 0;
+height: 30px;
+padding-left: 280px;
+}
+.title p{
+padding-top: 5px;
+}
+#content {
+min-height: 500px;
+padding: 10px;
+margin-left:250px;
+overflow: hidden;
+background:#F5F5F5 url("../images/vertical-sidebar-line.gif") repeat-y;
+}
+#content img{
+margin:20px 25px 25px 0;
+}
+#content p{
+display: inline;
+padding: 5px 0 0 20px;
+font-family: Tahoma;
+font-size: 12px;
+line-height: 1.5;
+}
+#sidebar {
+
+float: left;
+width: 250px;
+}
+#sidebar li {
+padding: 5px;
+margin: 10px 0;
+color: #636363;
+font-size: 12px;
+font-family: Trebuchet MS,Verdana,Helvetica,sans-serif;
+background: url(../images/line.png) no-repeat 0 100%;
+list-style-type: none;
+text-transform: uppercase;
+}
+#sidebar li:before {
+color: #2DC3E1;
+content: url(../images/dot.png); 
+padding-right: 10px; 
+}
+#sidebar li a {
+text-decoration: none;
+color: #636363;
+}
+#sidebar li a:hover{
+color: #539100;
+}
+#footer {
+padding: 0px 0 0 20px;
+height: 104px;
+margin: -22px 0 0 0;
+background: #636363 url(../images/footer.gif) no-repeat;
+}
+#footer h5{
+padding-top: 10px;
+}
+.tile {
+display: inline-block;
+text-align: center;
+width: 216px;
+height: 160px;
+background: #fff;
+margin-right: 20px;
+}
+.tile img{
+margin-top:0 !important;
+margin-bottom:0 !important;
+}
+.tile p{
+margin:0 !important;
+}
